@@ -25,7 +25,7 @@ public class Demo3Worker {
 	private Random random = new Random();
 	
 	/**
-	 * Intrensic lock is applied on the Demo3Worker object and
+	 * Intrinsic lock is applied on the Demo3Worker object and
 	 * there is only one lock, so two independent code is also blocked.
 	 */
 	

@@ -11,8 +11,9 @@ public class Demo2 {
 
 	/**
 	 * Make it atomic to make it thread safe
+	 * Intrinsic lock
 	 */
-	private  int count = 0;
+	private int count = 0;
 	
 	public synchronized void increment() {
 		count++;
